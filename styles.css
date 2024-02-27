@@ -52,7 +52,7 @@ header{
 }
 .navlist a{
     display: flex;
-    margin: 0 30px;
+    margin: 0 10px;
     font-size: var(--p-font);
     font-weight: 500;
     color: var(--text-color);
@@ -96,7 +96,7 @@ section{
     background: url(bg.png);
     background-size: cover;
     background-position: center;
-    background-position-x: 100px ;
+    background-position-x: 90px ;
     display: flex;
     justify-content: flex-start;
 }
@@ -144,4 +144,30 @@ section{
 }
 .btn i{
     margin-left: 9px;
+}
+.brands{
+    padding: 30px 5%;
+    background: var(--text-color);
+}
+.main-brands{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+.brands-c img{
+    width: 100%;
+    height: auto;
+}
+.center-text{
+    text-align: center;
+}
+.center-text h2{
+    font-size: var(--h2-font);
+    font-weight: 700;
+}
+.n-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
 }
