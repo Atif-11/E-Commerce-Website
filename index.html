@@ -16,6 +16,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />    
 </head>
 
 <body>
@@ -35,13 +36,13 @@
             <a href="#"><i class="ri-search-eye-line"></i></a>
             <a href="#"><i class="ri-shopping-cart-fill"></i></a>
             <a href="#"><i class="ri-user-3-line"></i></a>
-            <div class="bx bx-menu" id="menu-icons"></div>
+            <div class="bx bx-menu" id="menu-icon"></div>
         </div>
     </header>
 
     <!---home page-->
     <section class="home">
-        <div class="home-text">
+        <div class="home-text" data-aos="fade-up">
             <h1>New Styles <br>Elevate Your <br> Look</h1>
             <p>Discover the latest trends and must-haves for your wardrobe. Upgrade your style today!</p>            
             <a href="#" class="btn">
@@ -53,7 +54,7 @@
 
     <!--Brands Information-->
     <div class="brands">
-        <div class="main-brands">
+        <div class="main-brands" data-aos="zoom-in">
             <div class="brands-c">
                 <img src="Versace.png">
             </div>
@@ -78,11 +79,11 @@
 
     <!--detail of all products-->
     <section class="n-product">
-        <div class="center-text">
+        <div class="center-text" data-aos="fade-down">
             <h2>Available Products</h2>
         </div>
 
-        <div class="n-content">
+        <div class="n-content" data-aos="fade-up">
             <div class="row">
                 <div class="row-img">
                     <img src="Striped T-shirt.png">
@@ -307,7 +308,7 @@
                 </div>
             </div>
 
-            <div class="n-btn">
+            <div class="n-btn" data-aos="zoom-in">
                 <a href="#" class="btn2">View All</a>
             </div>
         </div>
@@ -315,7 +316,7 @@
 
     <!--Features-->
     <section class="feature">
-        <div class="feature-content">
+        <div class="feature-content" data-aos="fade-down">
             <div class="box">
                 <div class="f-icon">
                     <i class="ri-visa-fill"></i>
@@ -353,11 +354,11 @@
 
     <!--best selling-->
     <section class="selling">
-        <div class="center-text">
+        <div class="center-text" data-aos="fade-up">
             <h2>Best Seller</h2>
         </div>
 
-        <div class="selling-content">
+        <div class="selling-content" data-aos="zoom-in-up">
             <div class="col">
                 <div class="col-img">
                     <img src="Striped T-shirt.png">
@@ -398,7 +399,7 @@
 
     <!--newsletter section-->
     <section class="newsletter">
-        <div class="newsletter-content">
+        <div class="newsletter-content" data-aos="zoom-in">
             <div class="newsletter-text">
                 <h2>Get Latest Sales News!</h2>
                 <p>Sign up with your email address</p>
@@ -412,7 +413,7 @@
     </section>
 
     <!--footer section-->
-    <section class="footer">
+    <section class="footer" data-aos="fade-down">
         <div class="footer-box">
             <h3>Company</h3>
             <a href="#">About Us</a>
@@ -458,8 +459,14 @@
 
     </div>
 
-    <!--custom js link-->
-    <script src="js/script.js"></script>
+    <script src="script.js"></script>
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 300,
+        duration: 1450,
+      });
+    </script>
 </body>
 </html>
