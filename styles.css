@@ -99,7 +99,7 @@ section {
     position: relative;
     height: 100vh;
     width: 100%;
-    background: url(Background-img.png);
+    background: url(bg-img.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -118,21 +118,12 @@ section {
     margin-bottom: 20px;
 }
 
-.home-text h6 {
-    font-size: 15px;
-    font-weight: 500;
-    color: var(--second-color);
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-}
-
 .home-text p {
     width: 100%;
     max-width: 560px;
     font-size: var(--p-font);
     font-weight: 400;
-    color: var(--second-color);
+    color: var(--text-color);
     line-height: 33px;
     margin-bottom: 35px;
 }
